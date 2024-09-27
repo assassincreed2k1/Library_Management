@@ -8,6 +8,7 @@ public class AppLauncher {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
+                new Main().setVisible(true);
             }
         });
     }
